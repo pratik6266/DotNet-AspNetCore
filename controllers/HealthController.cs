@@ -13,7 +13,7 @@ namespace StudentAPI.controllers
         [HttpGet("health")]
         public IActionResult GetHealth()
         {
-            return Ok("API is healthy");
+            return Ok("Up and Running");
         }
     }
 }
